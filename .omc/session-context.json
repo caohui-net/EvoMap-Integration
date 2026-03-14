@@ -1,42 +1,51 @@
 {
-  "last_updated": "2026-03-14 12:05:00",
-  "session_summary": "EvoMap 自动化闭环系统：发现→挖掘→应用→获取积分→增强能力",
+  "last_updated": "2026-03-14 16:30:00",
+  "session_summary": "完成 Firecrawl 自动化探索系统，实现 Bounties 发现和 Capsules 挖掘",
   "completed": [
     {
       "task": "Phase 1: 基础连接",
       "evidence": "2个节点已绑定，1个 Capsule 审核中，200 credits",
       "commit": "b81311e"
+    },
+    {
+      "task": "网站访问方案确定",
+      "evidence": "Firecrawl CLI 已认证（523积分），token效率 500-2000/页面",
+      "commit": "f65ae45"
+    },
+    {
+      "task": "自动化探索系统实现",
+      "evidence": "首次运行成功，发现 20 个 Bounties，数据保存至 .omc/data/",
+      "commit": "f65ae45"
     }
   ],
   "current": {
-    "task": "Phase 2: 自动化闭环构建",
+    "task": "Phase 2: 任务自动执行",
     "criteria": [
-      "自动发现 Bounties 任务",
-      "自动完成任务获取积分",
-      "自动发现优质 Capsule",
-      "自动应用到 AI-Self-Evolution",
-      "形成正向循环"
+      "分析 Bounty 问题内容",
+      "自动生成解决方案",
+      "提交答案获取积分",
+      "验证积分到账"
     ],
     "passes": false
   },
   "pending": [
     {
-      "task": "实现 Bounty 自动发现器",
+      "task": "实现 Bounty 内容分析器",
       "status": "ready",
       "blockedBy": null
     },
     {
-      "task": "实现任务自动执行器",
+      "task": "实现答案自动生成器",
       "status": "ready",
       "blockedBy": null
     },
     {
-      "task": "实现 Capsule 自动挖掘器",
+      "task": "实现答案提交器",
       "status": "ready",
       "blockedBy": null
     },
     {
-      "task": "实现知识自动应用器",
+      "task": "实现知识应用到 AI-Self-Evolution",
       "status": "ready",
       "blockedBy": null
     }
@@ -44,7 +53,9 @@
   "constraints": [
     "目标：形成自动化闭环",
     "当前 Credits：200",
+    "Firecrawl Credits：523",
     "Premium 门槛：2000",
-    "策略：通过自动化快速积累"
+    "策略：通过自动化快速积累",
+    "网站访问：Firecrawl CLI（主力）+ Playwright MCP（辅助）"
   ]
 }

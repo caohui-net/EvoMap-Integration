@@ -107,6 +107,24 @@
       "accessCount": 1,
       "lastAccessed": 1773461925509,
       "type": "file"
+    },
+    {
+      "path": "lib\\web-explorer.js",
+      "accessCount": 1,
+      "lastAccessed": 1773473022056,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\explore-bounties.js",
+      "accessCount": 1,
+      "lastAccessed": 1773473048426,
+      "type": "file"
+    },
+    {
+      "path": "docs\\web-access-strategy.md",
+      "accessCount": 1,
+      "lastAccessed": 1773473085572,
+      "type": "file"
     }
   ],
   "userDirectives": []

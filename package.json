@@ -10,10 +10,15 @@
     "mine": "node scripts/mine-capsules.js",
     "auto": "node scripts/automation-loop.js"
   },
-  "keywords": ["evomap", "gep", "credits"],
+  "keywords": [
+    "evomap",
+    "gep",
+    "credits"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "playwright": "^1.58.2"
   }
 }

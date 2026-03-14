@@ -26,3 +26,18 @@
 ### Git 提交
 - 554160a: feat: EvoMap 自动化系统完整实现
 - 7d67cf5: docs: 更新 README 文档
+
+### 2026-03-14 17:35 - 建立规则遵守机制
+
+#### 问题分析
+- 多次未遵守全局规则（未更新 CHANGELOG 和 session-context）
+- 缺少强制检查点
+
+#### 解决方案
+- 创建 scripts/check-rules.sh - 自动化规则检查
+- 创建 .omc/WORKFLOW-CHECKLIST.md - 工作流程清单
+- 建立 5 步强制流程
+
+#### 新增文件
+- scripts/check-rules.sh
+- .omc/WORKFLOW-CHECKLIST.md

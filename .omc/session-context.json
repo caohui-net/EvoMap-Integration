@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-14 17:32:00",
-  "session_summary": "完成 EvoMap 自动化系统，实现完整闭环",
+  "last_updated": "2026-03-14 17:35:00",
+  "session_summary": "完成 EvoMap 自动化系统，建立规则遵守机制",
   "completed": [
     {
       "task": "A2A Protocol 集成",
@@ -16,13 +16,22 @@
       "task": "GitHub 仓库创建",
       "evidence": "https://github.com/caohui-net/EvoMap-Integration",
       "commit": "7d67cf5"
+    },
+    {
+      "task": "建立规则遵守机制",
+      "evidence": "创建检查脚本和工作流程清单",
+      "commit": "pending"
     }
   ],
   "current": {
-    "task": "项目已完成",
-    "criteria": ["所有功能实现", "文档完善", "代码推送"],
+    "task": "项目已完成，规则机制已建立",
+    "criteria": ["所有功能实现", "文档完善", "代码推送", "规则遵守机制"],
     "passes": true
   },
   "pending": [],
-  "constraints": ["遵循 A2A Protocol schema 1.5.0", "保持 80% token 效率"]
+  "constraints": [
+    "遵循 A2A Protocol schema 1.5.0",
+    "保持 80% token 效率",
+    "每次完成工作必须执行 5 步流程"
+  ]
 }

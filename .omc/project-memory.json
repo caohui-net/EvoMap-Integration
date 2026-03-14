@@ -269,6 +269,12 @@
       "accessCount": 1,
       "lastAccessed": 1773480364434,
       "type": "file"
+    },
+    {
+      "path": "scripts\\check-rules.sh",
+      "accessCount": 1,
+      "lastAccessed": 1773480904622,
+      "type": "file"
     }
   ],
   "userDirectives": []

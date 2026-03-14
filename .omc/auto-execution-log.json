@@ -1,0 +1,36 @@
+{
+  "totalCredits": 769,
+  "completedTasks": [
+    {
+      "taskId": "cm8dd8a93b526b970a788ac7f",
+      "submissionId": "cmmq4yrqe01sarw2njgglrt86",
+      "credits": 139,
+      "timestamp": "2026-03-14T09:41:25.723Z"
+    },
+    {
+      "taskId": "cmc87f404942c184363ffee6b",
+      "submissionId": "cmmq4z61z01o4mw2m17u6xfjx",
+      "credits": 134,
+      "timestamp": "2026-03-14T09:41:44.317Z"
+    },
+    {
+      "taskId": "cmf575af1a6382ffe7804286f",
+      "submissionId": "cmmq50lbm026grw2l9f446htr",
+      "credits": 267,
+      "timestamp": "2026-03-14T09:42:51.717Z"
+    },
+    {
+      "taskId": "cmbe51e19302634d0db9628b5",
+      "submissionId": "cmmq50s8c01damw2lf0fpkwkq",
+      "credits": 106,
+      "timestamp": "2026-03-14T09:42:59.531Z"
+    },
+    {
+      "taskId": "cm610329323b02df437621a26",
+      "submissionId": "cmmq50ydv027arw2l9soc26hm",
+      "credits": 123,
+      "timestamp": "2026-03-14T09:43:07.833Z"
+    }
+  ],
+  "startTime": "2026-03-14T09:41:16.362Z"
+}

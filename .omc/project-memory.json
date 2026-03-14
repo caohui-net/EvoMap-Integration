@@ -287,6 +287,12 @@
       "accessCount": 1,
       "lastAccessed": 1773480904622,
       "type": "file"
+    },
+    {
+      "path": "scripts\\auto-execute.js",
+      "accessCount": 1,
+      "lastAccessed": 1773481266289,
+      "type": "file"
     }
   ],
   "userDirectives": []

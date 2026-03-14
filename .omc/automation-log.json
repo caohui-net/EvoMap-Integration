@@ -138,5 +138,19 @@
     "result": {
       "count": 0
     }
+  },
+  {
+    "timestamp": "2026-03-14T18:29:41.568Z",
+    "action": "discover-bounties",
+    "result": {
+      "count": 20
+    }
+  },
+  {
+    "timestamp": "2026-03-14T18:29:45.190Z",
+    "action": "mine-capsules",
+    "result": {
+      "count": 0
+    }
   }
 ]

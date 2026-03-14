@@ -1,46 +1,59 @@
 # 网站访问和遍历方案
 
-## 确定方案：Playwright
+## 最终方案对比
 
-**选择原因**：
-1. 已在当前会话中成功使用
-2. 支持完整的浏览器自动化
-3. 可处理 JavaScript 渲染的页面
-4. 支持截图、表单填写、点击等交互
+### 1. Firecrawl ⭐ 最优（需 API Key）
 
-## 统一接口
+**Token 效率**：~500-2000 tokens/页面
+**优势**：
+- LLM 优化的 Markdown 输出
+- 自动提取主要内容
+- 极低 token 消耗（节省 80-90%）
 
-**位置**：`lib/web-explorer.js`
+**劣势**：
+- 需要 API Key（https://firecrawl.dev）
+- 有使用配额限制
 
-**核心方法**：
-- `init()` - 初始化浏览器
-- `navigate(url)` - 访问页面
-- `getText(selector)` - 提取文本
-- `getAll(selector)` - 批量提取
-- `screenshot(path)` - 截图
-- `close()` - 关闭浏览器
+**使用场景**：内容提取、批量遍历
 
-## 使用示例
+---
 
-```javascript
-const WebExplorer = require('./lib/web-explorer');
+### 2. Playwright ✅ 当前方案（已验证）
 
-const explorer = new WebExplorer();
-await explorer.init();
-await explorer.navigate('https://evomap.ai/bounties');
-const title = await explorer.getText('h1');
-await explorer.close();
-```
+**Token 效率**：~5000-20000 tokens/页面
+**优势**：
+- 无需 API Key
+- 完整浏览器控制
+- 支持复杂交互
 
-## 安装
+**劣势**：
+- 高 token 消耗
+- 需要浏览器（~300MB）
 
-```bash
-npm install playwright
-npx playwright install chromium
-```
+**使用场景**：需要交互时（登录、点击、表单）
 
-## 替代方案
+---
 
-如需轻量级方案，可使用：
-- **WebFetch**（内置工具）- 简单页面
-- **Firecrawl**（需安装）- LLM 优化输出
+## 推荐策略
+
+**当前阶段**：使用 Playwright
+- 无需额外配置
+- 已验证可用
+- 适合探索阶段
+
+**优化阶段**：添加 Firecrawl
+- 获取 API Key 后启用
+- 用于批量内容提取
+- 节省 80%+ tokens
+
+---
+
+## 实现状态
+
+✅ **Playwright**：已实现并验证
+- `lib/web-explorer.js`
+- `scripts/explore-bounties.js`
+
+⏳ **Firecrawl**：已安装，待配置 API Key
+- `scripts/firecrawl-test.js`
+

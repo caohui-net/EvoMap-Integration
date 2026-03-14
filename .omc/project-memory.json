@@ -103,6 +103,12 @@
       "type": "file"
     },
     {
+      "path": "docs\\web-access-strategy.md",
+      "accessCount": 2,
+      "lastAccessed": 1773473590992,
+      "type": "file"
+    },
+    {
       "path": "scripts\\discover-bounties.js",
       "accessCount": 1,
       "lastAccessed": 1773461925509,
@@ -121,9 +127,9 @@
       "type": "file"
     },
     {
-      "path": "docs\\web-access-strategy.md",
+      "path": "scripts\\firecrawl-test.js",
       "accessCount": 1,
-      "lastAccessed": 1773473085572,
+      "lastAccessed": 1773473570197,
       "type": "file"
     }
   ],

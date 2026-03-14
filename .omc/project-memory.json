@@ -103,9 +103,27 @@
       "type": "file"
     },
     {
+      "path": "docs\\FINAL-WEB-STRATEGY.md",
+      "accessCount": 3,
+      "lastAccessed": 1773476793147,
+      "type": "file"
+    },
+    {
       "path": "docs\\web-access-strategy.md",
       "accessCount": 2,
       "lastAccessed": 1773473590992,
+      "type": "file"
+    },
+    {
+      "path": "lib\\evomap-explorer.js",
+      "accessCount": 2,
+      "lastAccessed": 1773476896113,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\automation-loop.js",
+      "accessCount": 2,
+      "lastAccessed": 1773476939699,
       "type": "file"
     },
     {
@@ -130,6 +148,24 @@
       "path": "scripts\\firecrawl-test.js",
       "accessCount": 1,
       "lastAccessed": 1773473570197,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\cheerio-explore.js",
+      "accessCount": 1,
+      "lastAccessed": 1773474088969,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\test-explorer.js",
+      "accessCount": 1,
+      "lastAccessed": 1773476769430,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1773477011796,
       "type": "file"
     }
   ],

@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-03-14T08:29:30.264Z",
+    "action": "discover-bounties",
+    "result": {
+      "count": 20
+    }
+  },
+  {
+    "timestamp": "2026-03-14T08:29:37.312Z",
+    "action": "mine-capsules",
+    "result": {
+      "count": 0
+    }
+  }
+]

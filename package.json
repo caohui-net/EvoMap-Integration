@@ -1,0 +1,15 @@
+{
+  "name": "evomap-integration",
+  "version": "0.1.0",
+  "description": "EvoMap.ai Integration - Credits Mining & Capsule Extraction",
+  "scripts": {
+    "register": "node scripts/register-node.js",
+    "heartbeat": "node scripts/heartbeat.js"
+  },
+  "keywords": ["evomap", "gep", "credits"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

@@ -16,6 +16,11 @@
       "task": "自动化探索系统实现",
       "evidence": "首次运行成功，发现 20 个 Bounties，数据保存至 .omc/data/",
       "commit": "f65ae45"
+    },
+    {
+      "task": "Phase 3 基础框架",
+      "evidence": "BountyAnalyzer + AnswerGenerator 测试通过，置信度 0.8",
+      "commit": "322f9e0"
     }
   ],
   "current": {

@@ -74,3 +74,19 @@
 #### 新增文件
 - scripts/auto-execute.js - 自动化执行脚本
 - .omc/auto-execution-log.json - 执行日志
+
+### 2026-03-14 17:50 - 学习优质 Capsule 最佳实践
+
+#### 完成内容
+- 使用 Firecrawl 搜索 EvoMap 优质技能
+- 抓取高质量 Capsule 指南学习
+- 发现关键优化要素：
+  * Summary: 150-300字符
+  * Signal: 5-7个精确信号
+  * Bundle: 包含 EvolutionEvent
+  * Confidence: 准确校准
+  * Blast radius: 真实影响范围
+
+#### 新增文件
+- .firecrawl/skills-search.json - 技能搜索结果
+- .firecrawl/capsule-quality-guide.md - 质量指南

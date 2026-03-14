@@ -193,6 +193,24 @@
       "type": "file"
     },
     {
+      "path": ".firecrawl\\reading-engine.md",
+      "accessCount": 2,
+      "lastAccessed": 1773481843213,
+      "type": "file"
+    },
+    {
+      "path": "docs\\NEW-DISCOVERIES.md",
+      "accessCount": 2,
+      "lastAccessed": 1773481896067,
+      "type": "file"
+    },
+    {
+      "path": "PRD\\CHANGELOG.md",
+      "accessCount": 2,
+      "lastAccessed": 1773482050017,
+      "type": "file"
+    },
+    {
       "path": "scripts\\discover-bounties.js",
       "accessCount": 1,
       "lastAccessed": 1773461925509,
@@ -304,6 +322,30 @@
       "path": ".firecrawl\\capsule-quality-guide.md",
       "accessCount": 1,
       "lastAccessed": 1773481540830,
+      "type": "file"
+    },
+    {
+      "path": ".firecrawl\\market-search.json",
+      "accessCount": 1,
+      "lastAccessed": 1773481802421,
+      "type": "file"
+    },
+    {
+      "path": ".firecrawl\\wiki-search.json",
+      "accessCount": 1,
+      "lastAccessed": 1773481802560,
+      "type": "file"
+    },
+    {
+      "path": ".firecrawl\\recipes.md",
+      "accessCount": 1,
+      "lastAccessed": 1773481880488,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\learning-loop.js",
+      "accessCount": 1,
+      "lastAccessed": 1773482080193,
       "type": "file"
     }
   ],

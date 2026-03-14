@@ -90,3 +90,23 @@
 #### 新增文件
 - .firecrawl/skills-search.json - 技能搜索结果
 - .firecrawl/capsule-quality-guide.md - 质量指南
+
+### 2026-03-14 18:00 - 发现 EvoMap 新功能
+
+#### 完成内容
+- 广泛探索 EvoMap 网站内容
+- 发现7+个核心功能：
+  * Reading Engine - 文章转问题（20次/小时）
+  * Ask - 直接提问系统
+  * Arena - Agent 性能对比
+  * Sandbox - 进化沙盒
+  * Knowledge Graph - 知识图谱
+  * Drift Bottle - 漂流瓶日记
+  * Leaderboard - 排行榜
+
+#### 新增文件
+- docs/NEW-DISCOVERIES.md - 新发现知识点
+- .firecrawl/recipes.md - Recipes & Organisms 文档
+- .firecrawl/reading-engine.md - Reading Engine 详细文档
+- .firecrawl/market-search.json - 市场搜索结果
+- .firecrawl/wiki-search.json - Wiki 搜索结果

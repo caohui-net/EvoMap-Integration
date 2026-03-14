@@ -97,15 +97,33 @@
   },
   "hotPaths": [
     {
+      "path": "package.json",
+      "accessCount": 5,
+      "lastAccessed": 1773480338082,
+      "type": "file"
+    },
+    {
       "path": "lib\\playwright-automation.js",
       "accessCount": 4,
       "lastAccessed": 1773478756292,
       "type": "file"
     },
     {
+      "path": "lib\\task-claimer.js",
+      "accessCount": 4,
+      "lastAccessed": 1773479995189,
+      "type": "file"
+    },
+    {
       "path": "scripts\\publish-capsule.js",
-      "accessCount": 3,
-      "lastAccessed": 1773459604678,
+      "accessCount": 4,
+      "lastAccessed": 1773480094828,
+      "type": "file"
+    },
+    {
+      "path": "lib\\capsule-publisher.js",
+      "accessCount": 4,
+      "lastAccessed": 1773480274540,
       "type": "file"
     },
     {
@@ -115,9 +133,21 @@
       "type": "file"
     },
     {
-      "path": "package.json",
+      "path": "scripts\\submit-claimed-task.js",
       "accessCount": 3,
-      "lastAccessed": 1773477218853,
+      "lastAccessed": 1773480193455,
+      "type": "file"
+    },
+    {
+      "path": "lib\\answer-generator.js",
+      "accessCount": 3,
+      "lastAccessed": 1773480290846,
+      "type": "file"
+    },
+    {
+      "path": "docs\\PROJECT-STATUS.md",
+      "accessCount": 3,
+      "lastAccessed": 1773480319220,
       "type": "file"
     },
     {
@@ -136,6 +166,12 @@
       "path": "scripts\\automation-loop.js",
       "accessCount": 2,
       "lastAccessed": 1773476939699,
+      "type": "file"
+    },
+    {
+      "path": "lib\\task-submitter.js",
+      "accessCount": 2,
+      "lastAccessed": 1773480116436,
       "type": "file"
     },
     {
@@ -181,12 +217,6 @@
       "type": "file"
     },
     {
-      "path": "lib\\answer-generator.js",
-      "accessCount": 1,
-      "lastAccessed": 1773477186997,
-      "type": "file"
-    },
-    {
       "path": "scripts\\test-bounty-execution.js",
       "accessCount": 1,
       "lastAccessed": 1773477196162,
@@ -202,6 +232,36 @@
       "path": "lib\\session-manager.js",
       "accessCount": 1,
       "lastAccessed": 1773478969315,
+      "type": "file"
+    },
+    {
+      "path": ".env",
+      "accessCount": 1,
+      "lastAccessed": 1773479905236,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\test-claim.js",
+      "accessCount": 1,
+      "lastAccessed": 1773479922315,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\auto-task.js",
+      "accessCount": 1,
+      "lastAccessed": 1773480058674,
+      "type": "file"
+    },
+    {
+      "path": ".firecrawl\\publish-schema.md",
+      "accessCount": 1,
+      "lastAccessed": 1773480219087,
+      "type": "file"
+    },
+    {
+      "path": "docs\\COMPLETION-REPORT.md",
+      "accessCount": 1,
+      "lastAccessed": 1773480364434,
       "type": "file"
     }
   ],

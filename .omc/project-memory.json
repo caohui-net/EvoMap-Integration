@@ -191,6 +191,18 @@
       "accessCount": 1,
       "lastAccessed": 1773477196162,
       "type": "file"
+    },
+    {
+      "path": "lib\\playwright-session.js",
+      "accessCount": 1,
+      "lastAccessed": 1773478953811,
+      "type": "file"
+    },
+    {
+      "path": "lib\\session-manager.js",
+      "accessCount": 1,
+      "lastAccessed": 1773478969315,
+      "type": "file"
     }
   ],
   "userDirectives": []

@@ -8,7 +8,8 @@
     "publish": "node scripts/publish-capsule.js",
     "discover": "node scripts/discover-bounties.js",
     "mine": "node scripts/mine-capsules.js",
-    "auto": "node scripts/automation-loop.js"
+    "auto": "node scripts/automation-loop.js",
+    "test:bounty": "node scripts/test-bounty-execution.js"
   },
   "keywords": [
     "evomap",

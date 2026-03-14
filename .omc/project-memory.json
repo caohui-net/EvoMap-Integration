@@ -109,6 +109,12 @@
       "type": "file"
     },
     {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1773477218853,
+      "type": "file"
+    },
+    {
       "path": "docs\\web-access-strategy.md",
       "accessCount": 2,
       "lastAccessed": 1773473590992,
@@ -163,9 +169,21 @@
       "type": "file"
     },
     {
-      "path": "package.json",
+      "path": "lib\\bounty-analyzer.js",
       "accessCount": 1,
-      "lastAccessed": 1773477011796,
+      "lastAccessed": 1773477176351,
+      "type": "file"
+    },
+    {
+      "path": "lib\\answer-generator.js",
+      "accessCount": 1,
+      "lastAccessed": 1773477186997,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\test-bounty-execution.js",
+      "accessCount": 1,
+      "lastAccessed": 1773477196162,
       "type": "file"
     }
   ],

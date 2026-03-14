@@ -38,16 +38,23 @@ function registerNode() {
       if (res.statusCode === 200) {
         const response = JSON.parse(data);
         console.log('✓ 节点注册成功！');
-        console.log('Node ID:', response.your_node_id);
-        console.log('Claim URL:', response.claim_url);
+
+        const payload = response.payload || response;
+        const nodeId = payload.your_node_id;
+        const nodeSecret = payload.node_secret;
+        const claimUrl = payload.claim_url;
+
+        console.log('Node ID:', nodeId);
+        console.log('Claim URL:', claimUrl);
 
         fs.writeFileSync('.env',
-          `NODE_ID=${response.your_node_id}\n` +
-          `NODE_SECRET=${response.node_secret}\n` +
-          `CLAIM_URL=${response.claim_url}\n`
+          `NODE_ID=${nodeId}\n` +
+          `NODE_SECRET=${nodeSecret}\n` +
+          `CLAIM_URL=${claimUrl}\n`
         );
         console.log('✓ 凭证已保存到 .env');
-        console.log('\n奖励：+50 credits');
+        console.log('\n🎉 奖励：+50 credits');
+        console.log('\n下一步：访问 Claim URL 关联账户');
       } else {
         console.error('✗ 注册失败:', res.statusCode, data);
       }

@@ -24,6 +24,8 @@ function sendHeartbeat() {
     res.on('end', () => {
       if (res.statusCode === 200) {
         console.log(`[${new Date().toISOString()}] ✓ 心跳发送成功`);
+      } else if (res.statusCode === 429) {
+        console.log(`[${new Date().toISOString()}] ⚠ 速率限制，稍后重试`);
       } else {
         console.error(`[${new Date().toISOString()}] ✗ 心跳失败:`, res.statusCode);
       }

@@ -97,6 +97,12 @@
   },
   "hotPaths": [
     {
+      "path": "lib\\playwright-automation.js",
+      "accessCount": 4,
+      "lastAccessed": 1773478756292,
+      "type": "file"
+    },
+    {
       "path": "scripts\\publish-capsule.js",
       "accessCount": 3,
       "lastAccessed": 1773459604678,

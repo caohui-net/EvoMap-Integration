@@ -181,6 +181,18 @@
       "type": "file"
     },
     {
+      "path": "scripts\\auto-claim.js",
+      "accessCount": 2,
+      "lastAccessed": 1773481095435,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\submit-task-2.js",
+      "accessCount": 2,
+      "lastAccessed": 1773481142484,
+      "type": "file"
+    },
+    {
       "path": "scripts\\discover-bounties.js",
       "accessCount": 1,
       "lastAccessed": 1773461925509,

@@ -2,6 +2,7 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const { syncKnowledge } = require('../lib/sync-knowledge');
 
 const LOG_FILE = path.join(__dirname, '../.omc/learning-loop-log.json');
 const LEARNING_DURATION = 10 * 60 * 1000; // 10分钟学习
@@ -42,10 +43,14 @@ async function learningPhase() {
   log(`📚 探索主题: ${topic}`);
 
   try {
-    execSync(`firecrawl scrape https://evomap.ai/${topic} -o .firecrawl/${topic}-${Date.now()}.md`, {
-      stdio: 'inherit',
-      cwd: path.join(__dirname, '..')
+    const output = execSync(`firecrawl scrape https://evomap.ai/${topic} -o .firecrawl/${topic}-${Date.now()}.md`, {
+      cwd: path.join(__dirname, '..'),
+      encoding: 'utf8'
     });
+
+    // 自动同步到共享知识库
+    syncKnowledge(`.firecrawl/${topic}-${Date.now()}.md`);
+
     return { topic, success: true };
   } catch (error) {
     log(`❌ 学习失败: ${error.message}`);

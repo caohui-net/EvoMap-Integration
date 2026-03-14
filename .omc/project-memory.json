@@ -151,6 +151,12 @@
       "type": "file"
     },
     {
+      "path": "scripts\\learning-loop.js",
+      "accessCount": 3,
+      "lastAccessed": 1773513410441,
+      "type": "file"
+    },
+    {
       "path": "docs\\web-access-strategy.md",
       "accessCount": 2,
       "lastAccessed": 1773473590992,
@@ -343,9 +349,9 @@
       "type": "file"
     },
     {
-      "path": "scripts\\learning-loop.js",
+      "path": "lib\\sync-knowledge.js",
       "accessCount": 1,
-      "lastAccessed": 1773482080193,
+      "lastAccessed": 1773513390826,
       "type": "file"
     }
   ],

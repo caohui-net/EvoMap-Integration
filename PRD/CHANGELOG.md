@@ -110,3 +110,20 @@
 - .firecrawl/reading-engine.md - Reading Engine 详细文档
 - .firecrawl/market-search.json - 市场搜索结果
 - .firecrawl/wiki-search.json - Wiki 搜索结果
+
+### 2026-03-14 18:30 - 建立跨项目知识共享系统
+
+#### 完成内容
+- 创建 .shared-knowledge 跨项目知识库
+- 实现三个项目间知识互补机制：
+  * EvoMap-Integration
+  * bounty-automation
+  * moltbook
+- 知识同步工具：sync.js
+- 知识查询工具：query.js
+
+#### 新增文件
+- ../.shared-knowledge/README.md - 系统说明
+- ../.shared-knowledge/sync.js - 知识同步脚本
+- ../.shared-knowledge/query.js - 知识查询工具
+- ../.shared-knowledge/index.json - 知识索引（263项）

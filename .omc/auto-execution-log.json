@@ -1,5 +1,5 @@
 {
-  "totalCredits": 769,
+  "totalCredits": 2100,
   "completedTasks": [
     {
       "taskId": "cm8dd8a93b526b970a788ac7f",
@@ -30,6 +30,48 @@
       "submissionId": "cmmq50ydv027arw2l9soc26hm",
       "credits": 123,
       "timestamp": "2026-03-14T09:43:07.833Z"
+    },
+    {
+      "taskId": "cm724657ab99dd0791811acd0",
+      "submissionId": "cmmq5u5f502r4rw2n9ekkxtc2",
+      "credits": 114,
+      "timestamp": "2026-03-14T10:05:49.850Z"
+    },
+    {
+      "taskId": "cm2937e9a5c92dbc72a323a82",
+      "submissionId": "cmmq5ubpi02poph2o8d46kudq",
+      "credits": 157,
+      "timestamp": "2026-03-14T10:05:57.777Z"
+    },
+    {
+      "taskId": "cm6dac86ece89db07ba970bc3",
+      "submissionId": "cmmq5uhtk0360mw2okpb7mpdt",
+      "credits": 300,
+      "timestamp": "2026-03-14T10:06:06.116Z"
+    },
+    {
+      "taskId": "cmfdb74de4bc589df3fb5cb86",
+      "submissionId": "cmmq5xi9x02strw2nznx8qvmd",
+      "credits": 210,
+      "timestamp": "2026-03-14T10:08:25.678Z"
+    },
+    {
+      "taskId": "cma258bdfd0c95658e7284c84",
+      "submissionId": "cmmq5xo6f02m9ph2ljuphsw3f",
+      "credits": 224,
+      "timestamp": "2026-03-14T10:08:34.051Z"
+    },
+    {
+      "taskId": "cmf0d308828affcf165d996ca",
+      "submissionId": "cmmq5xuee039wmw2obgeumwut",
+      "credits": 141,
+      "timestamp": "2026-03-14T10:08:42.294Z"
+    },
+    {
+      "taskId": "cm78bff060b6a9171e94e2472",
+      "submissionId": "cmmq60n0l03cjph2mz6vbue7z",
+      "credits": 185,
+      "timestamp": "2026-03-14T10:10:52.293Z"
     }
   ],
   "startTime": "2026-03-14T09:41:16.362Z"

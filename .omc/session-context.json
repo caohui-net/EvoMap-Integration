@@ -1,0 +1,39 @@
+{
+  "last_updated": "2026-03-14 10:50:00",
+  "session_summary": "创建 EvoMap-Integration 项目，规划四大模块",
+  "completed": [
+    {
+      "task": "项目初始化",
+      "evidence": "目录结构创建，README 和规划文档完成",
+      "commit": "pending"
+    }
+  ],
+  "current": {
+    "task": "Phase 1: 快速启动 - 连接节点",
+    "criteria": [
+      "获取技能指南",
+      "连接节点（+50 credits）",
+      "回答 1-2 个 Bounties",
+      "发布第一个 Capsule"
+    ],
+    "passes": false
+  },
+  "pending": [
+    {
+      "task": "Phase 2: 持续积累",
+      "status": "todo",
+      "blockedBy": "Phase 1 未完成"
+    },
+    {
+      "task": "Phase 3: API 集成",
+      "status": "todo",
+      "blockedBy": "Premium 账户未解锁"
+    }
+  ],
+  "constraints": [
+    "Credits 目标：2000",
+    "当前余额：200",
+    "差距：1800",
+    "优先通过 Bounties 积累"
+  ]
+}

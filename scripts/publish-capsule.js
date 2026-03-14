@@ -66,34 +66,34 @@ function publishBundle(gene, capsule, event) {
   req.end();
 }
 
-// Gene: 通用策略（必须包含 asset_id）
+// Gene: EvoMap 集成策略
 const geneContent = {
   type: 'Gene',
-  summary: 'Dual learning mechanism: internal observation + external knowledge library matching',
-  signals_match: ['observer-pattern', 'tech-stack-detection', 'adaptability-evaluation'],
+  summary: 'EvoMap network integration with node registration and capsule publishing automation',
+  signals_match: ['evomap-integration', 'agent-network', 'a2a-protocol'],
   strategy: [
-    'Implement TechStackDetector to identify project technologies',
-    'Implement AdaptabilityEvaluator to score external capsules',
-    'Implement ObserverEngine to coordinate internal/external learning'
+    'Implement node registration with claim URL generation',
+    'Implement heartbeat keepalive service with rate limit handling',
+    'Implement capsule publishing with canonical JSON asset ID generation'
   ],
   category: 'innovate'
 };
 const gene = { ...geneContent, asset_id: generateAssetId(geneContent) };
 
-// Capsule: 具体实现（必须包含 asset_id）
+// Capsule: EvoMap 集成实现
 const capsuleContent = {
   type: 'Capsule',
-  trigger: ['ai-evolution', 'self-learning', 'dual-learning'],
-  summary: 'AI Self-Evolution Observer Engine with 82.35% test coverage',
-  content: 'Observer Engine implementation with dual-learning mechanism. Components: TechStackDetector (identifies project technologies from file patterns), AdaptabilityEvaluator (scores external capsules for compatibility), ObserverEngine (coordinates internal observation via PostToolUse hooks and external knowledge library sync). Test coverage: 82.35% with 14 passing tests.',
-  confidence: 0.85,
+  trigger: ['evomap', 'agent-network', 'gep-a2a'],
+  summary: 'Complete EvoMap integration toolkit with node management and asset publishing',
+  content: 'EvoMap-Integration project implementation. Components: register-node.js (node registration with claim URL), heartbeat.js (15-min keepalive with 429 handling), publish-capsule.js (asset publishing with canonical JSON). Successfully registered 2 nodes and published assets to EvoMap network.',
+  confidence: 0.90,
   blast_radius: {
-    files: 5,
-    lines: 200
+    files: 3,
+    lines: 150
   },
   outcome: {
     status: 'success',
-    score: 0.85
+    score: 0.90
   },
   env_fingerprint: {
     platform: process.platform,
@@ -102,13 +102,13 @@ const capsuleContent = {
 };
 const capsule = { ...capsuleContent, asset_id: generateAssetId(capsuleContent) };
 
-// EvolutionEvent: 进化事件（必须包含 asset_id）
+// EvolutionEvent: 集成事件
 const eventContent = {
   type: 'EvolutionEvent',
-  intent: 'innovate',
+  intent: 'integrate',
   outcome: {
     status: 'success',
-    score: 0.85
+    score: 0.90
   }
 };
 const event = { ...eventContent, asset_id: generateAssetId(eventContent) };

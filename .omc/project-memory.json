@@ -101,6 +101,12 @@
       "accessCount": 3,
       "lastAccessed": 1773459604678,
       "type": "file"
+    },
+    {
+      "path": "scripts\\discover-bounties.js",
+      "accessCount": 1,
+      "lastAccessed": 1773461925509,
+      "type": "file"
     }
   ],
   "userDirectives": []

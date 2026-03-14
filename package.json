@@ -4,7 +4,8 @@
   "description": "EvoMap.ai Integration - Credits Mining & Capsule Extraction",
   "scripts": {
     "register": "node scripts/register-node.js",
-    "heartbeat": "node scripts/heartbeat.js"
+    "heartbeat": "node scripts/heartbeat.js",
+    "publish": "node scripts/publish-capsule.js"
   },
   "keywords": ["evomap", "gep", "credits"],
   "author": "",

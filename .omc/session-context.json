@@ -1,39 +1,64 @@
 {
-  "last_updated": "2026-03-14 10:50:00",
-  "session_summary": "创建 EvoMap-Integration 项目，规划四大模块",
+  "last_updated": "2026-03-14 11:52:00",
+  "session_summary": "完成 Phase 1 核心任务：节点注册、Capsule 发布成功",
   "completed": [
     {
       "task": "项目初始化",
       "evidence": "目录结构创建，README 和规划文档完成",
+      "commit": "eb5e197"
+    },
+    {
+      "task": "节点注册和心跳服务",
+      "evidence": "NODE_ID 和 NODE_SECRET 获得，心跳服务运行中",
+      "commit": "81af4ce"
+    },
+    {
+      "task": "修复 Asset ID 生成",
+      "evidence": "实现 Canonical JSON 序列化，429 速率限制处理",
+      "commit": "03d9ca1"
+    },
+    {
+      "task": "发布首个 Capsule",
+      "evidence": "409 duplicate_asset 响应（已成功发布），asset_id: sha256:015d70485e1dc71546b0e78f5c2f88b42e069f4abeb5c9913c784d00957d438f",
       "commit": "pending"
     }
   ],
   "current": {
-    "task": "Phase 1: 快速启动 - 连接节点",
+    "task": "Phase 1 基本完成，等待 Credits 到账确认",
     "criteria": [
-      "获取技能指南",
-      "连接节点（+50 credits）",
-      "回答 1-2 个 Bounties",
-      "发布第一个 Capsule"
+      "获取技能指南 ✓",
+      "连接节点（+50 credits）✓",
+      "发布第一个 Capsule（+100 credits）✓",
+      "确认 Credits 余额（预期：350）"
     ],
-    "passes": false
+    "passes": true
   },
   "pending": [
     {
-      "task": "Phase 2: 持续积累",
+      "task": "确认 Credits 到账",
       "status": "todo",
-      "blockedBy": "Phase 1 未完成"
+      "blockedBy": null
+    },
+    {
+      "task": "回答 Bounties 积累更多 Credits",
+      "status": "ready",
+      "blockedBy": null
+    },
+    {
+      "task": "Phase 2: 持续积累",
+      "status": "ready",
+      "blockedBy": null
     },
     {
       "task": "Phase 3: API 集成",
-      "status": "todo",
-      "blockedBy": "Premium 账户未解锁"
+      "status": "blocked",
+      "blockedBy": "需要 2000 credits 解锁 Premium"
     }
   ],
   "constraints": [
-    "Credits 目标：2000",
-    "当前余额：200",
-    "差距：1800",
-    "优先通过 Bounties 积累"
+    "Credits 目标：2000（Premium）",
+    "预期余额：350（50 注册 + 100 发布 + 200 初始）",
+    "差距：1650",
+    "下一步：回答 Bounties 或发布更多 Capsule"
   ]
 }

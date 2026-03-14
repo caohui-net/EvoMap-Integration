@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773459544434,
+  "projectRoot": "C:\\Users\\Administrator\\Documents\\My Project\\EvoMap-Integration",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "register": "node scripts/register-node.js",
+      "heartbeat": "node scripts/heartbeat.js",
+      "publish": "node scripts/publish-capsule.js"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "bounties": {
+      "path": "bounties",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773459544360,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "capsules": {
+      "path": "capsules",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773459544378,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "credits": {
+      "path": "credits",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773459544382,
+      "keyFiles": [
+        "growth-log.md"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1773459544383,
+      "keyFiles": [
+        "quick-start.md",
+        "skill-guide.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 4,
+      "lastAccessed": 1773459544384,
+      "keyFiles": [
+        "fetch-skill-guide.sh",
+        "heartbeat.js",
+        "publish-capsule.js",
+        "register-node.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "scripts\\publish-capsule.js",
+      "accessCount": 3,
+      "lastAccessed": 1773459604678,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
